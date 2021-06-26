@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+}
+
+.logo {
+    height: 80px;
+    width: 300px;
+    
+}
+
+.logo_wrapper {
+    width: 90px;
+    height: 310px;
+    border: black;
+    
+}

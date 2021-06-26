@@ -1,16 +1,84 @@
-.header {
+@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
+
+body {
+    background-image: url(../images/header_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main {
     display: flex;
+    margin-bottom: 600px;
 }
 
 .logo {
     height: 80px;
     width: 300px;
-    
 }
 
 .logo_wrapper {
-    width: 90px;
-    height: 310px;
-    border: black;
+    height: 90px;
+    width: 310px;
+}
+
+.start_test_btn {
+    background-color: yellow;
+    height: 50px;
+    width: 300px;
+    border: 0;
+    margin-right: 100px;
+    font-family: 'Castoro', serif;
+    font-weight: 900;
+    font-size: x-large;
+}
+
+.about_test_btn {
+    background-color: yellow;
+    height: 50px;
+    width: 300px;
+    border: 0;
+    margin-right: 100px;
+    font-family: 'Castoro', serif;
+    font-weight: 900;
+    font-size: x-large;
+}
+
+.about_us_btn {
+    background-color: yellow;
+    height: 50px;
+    width: 300px;
+    border: 0;
+    font-family: 'Castoro', serif;
+    font-weight: 900;
+    font-size: x-large;
+    border-radius: 10px;
+}
+
+.start_test_btn:hover {
+    color: white;
+    background-color: blue;
+    transition: 500ms;
+}
+
+.about_test_btn:hover {
+    color: white;
+    background-color: blue;
+    transition: 500ms;
+}
+
+.about_us_btn:hover {
+    color: white;
+    background-color: blue;
+    transition: 500ms;
+}
+
+.btn_wrapper {
+    width: 1200px;
+}
+
+.footer_text {
+    color: white;
+    font-family: 'Castoro', serif;
+    font-size: large;
     
 }
